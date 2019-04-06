@@ -39,6 +39,12 @@ def __init__(self):
     print(self.params[5193])
     print(self.params[5194])
     print(self.params[5195])
+    print(self.params[5196])
+    print(self.params[5197])
+    print(self.params[5198])
+    print(self.params[5199])
+    print(self.params[5200])
+    print(self.params[5201])
 
     if hasattr(interpreter, 'this'):
         if self is not interpreter.this:
