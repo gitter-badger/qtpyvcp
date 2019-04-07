@@ -27,7 +27,7 @@ import interpreter
 
 def __init__(self):
     print("__init__")
-    emc_methods = [name for name, val in interpreter.__dict__.iteritems() if callable(val)]
+    emc_methods = [name for name, val in emccanon.__dict__.iteritems() if callable(val)]
     interp_methods = [name for name, val in interpreter.__dict__.iteritems() if callable(val)]
 
     print(emc_methods)
